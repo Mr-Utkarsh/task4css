@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+.p{
+    display: flex;
+    height: 300px;
+    width: 880px;
+    background: linear-gradient(to right, #00B2E9, #014992);
+    border-radius: 20px;
+    margin-top: 17%;
+    margin-left: 25%;
+    gap: 40px;
+}
+.c1{
+    height: 300px;
+    width: 220px;
+    background-image: url("./willian-justen-de-vasconcellos-8pV95frNn5o-unsplash.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    border-radius: 20px;
+    position: relative;
+    top: -20px; 
+}
+.c2{
+    width: 530px;
+    height: 300px;
+    margin-top: 30px;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+}
+button{
+    margin-top: 20px;
+    color: white;
+    background-color: #0283C2;
+    height: 50px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 20px;
+    opacity: 0.8;
+}
